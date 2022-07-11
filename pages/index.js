@@ -5,7 +5,7 @@ export default function Home() {
    const {address, connectWallet} = useWeb3()
 
    return (
-      <div>
+      <div className='grid h-screen'>
          <button onClick={()=>connectWallet('injected')}>Connect Wallet</button>
       </div>
    )
